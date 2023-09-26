@@ -6,6 +6,6 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 ruby "~> 3.0"
 
-gem "discorb"
+gem "discordrb"
 gem "dotenv"
 gem "notion-ruby-client"
