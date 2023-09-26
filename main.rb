@@ -1,8 +1,8 @@
 require 'discordrb'
-require 'dotenv'
+# require 'dotenv'
 require 'notion-ruby-client'
 
-Dotenv.load
+# Dotenv.load
 bot = Discordrb::Bot.new token: ENV['DISCORD_BOT_TOKEN']
 client = Notion::Client.new(token: ENV['NOTION_API'])
 
